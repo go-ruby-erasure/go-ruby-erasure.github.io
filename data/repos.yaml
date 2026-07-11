@@ -1,0 +1,2 @@
+items:
+  - { name: "erasure", kind: "adapter", desc: "Reflective adapter over go-erasure/reedsolomon and go-erasure/mojette, returning Ruby-shaped values." }

@@ -1,0 +1,4 @@
+baseURL = "https://go-ruby-erasure.github.io/"
+languageCode = "en-us"
+title = "go-ruby-erasure"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
