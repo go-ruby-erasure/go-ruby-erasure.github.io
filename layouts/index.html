@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{{/* Dark Reader repaints pages that already draw their own dark theme, as this one does: ask it to stand aside. */}}
+<meta name="darkreader-lock">
 <title>{{ .Site.Title }} — pure-Go core of the Ruby erasure gem</title>
 <meta name="description" content="The pure-Go, Ruby-runtime-independent core of the Ruby erasure gem: a reflective adapter over go-erasure/reedsolomon (Reed-Solomon over GF(2^16)) and go-erasure/mojette (the Mojette transform), shaped so the go-embedded-ruby interpreter can bind it as require &quot;erasure&quot;. CGO_ENABLED=0.">
 <style>
